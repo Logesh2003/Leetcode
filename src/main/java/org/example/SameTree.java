@@ -1,5 +1,7 @@
 package org.example;
 
+import javax.swing.tree.TreeNode;
+
 class SameTreeNode {
     int val;
     SameTreeNode left;
@@ -14,7 +16,7 @@ class SameTreeNode {
 
 public class SameTree {
 
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(SameTreeNode p, SameTreeNode q) {
         // Both nodes are null, trees are identical
         if (p == null && q == null) {
             return true;
@@ -36,16 +38,16 @@ public class SameTree {
 
     public static void main(String[] args) {
         // Example trees
-        TreeNode p = new TreeNode(1);
-        p.left = new TreeNode(2);
-        p.right = new TreeNode(3);
+        SameTreeNode p = new SameTreeNode(1);
+        p.left = new SameTreeNode(2);
+        p.right = new SameTreeNode(3);
 
-        TreeNode q = new TreeNode(1);
-        q.left = new TreeNode(2);
-        q.right = new TreeNode(3);
+        SameTreeNode q = new SameTreeNode(1);
+        q.left = new SameTreeNode(2);
+        q.right = new SameTreeNode(3);
 
-        SameTree sameTree = new SameTree();
-        boolean result = sameTree.isSameTree(p, q);
+        SameTree main = new SameTree();
+        boolean result = main.isSameTree(p, q);
 
         System.out.println(result);  // Output: true
     }
