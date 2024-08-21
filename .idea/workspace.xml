@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccfff2f1-d00c-4d91-a3c5-f824929d80d3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SameTree.java" afterDir="false" />
+    <list default="true" id="ccfff2f1-d00c-4d91-a3c5-f824929d80d3" name="Changes" comment="problem 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SymmetricTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +126,36 @@
       <option name="presentableId" value="Default" />
       <updated>1723960873580</updated>
     </task>
+    <task id="LOCAL-00001" summary="problem 3">
+      <created>1724223418044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724223418044</updated>
+    </task>
+    <task id="LOCAL-00002" summary="problem 3">
+      <created>1724223465071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724223465071</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="problem 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem 3" />
   </component>
 </project>
